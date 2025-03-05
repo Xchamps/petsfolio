@@ -1,0 +1,209 @@
+.primary_btn{
+  font-family: '$InterMedium';
+  font-size: 22px;
+  line-height: 48px;
+  color: $white; 
+  min-width: 242px;
+  height: 60px; 
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  @include border-radius(4px);
+  @include transition(all 0.4s ease-in-out);
+  border:none;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+  &::-moz-focus-inner {
+    border: 0;
+  }
+  &:first-letter{
+    text-transform: capitalize;
+  } 
+}
+
+ 
+.btn_cpink{
+  background:$primary-btn1;
+  &:hover{
+    @include transition(all 0.4s ease-in-out);
+    background:$primary-btn11;
+  }
+  &:active{
+    @include transition(all 0.4s ease-in-out);
+    background:$primary-btn11;
+  }
+}
+
+.btn_ypink{
+  background:$primary-btn2;
+  &:hover{
+    @include transition(all 0.4s ease-in-out);
+    background:$primary-btn22;
+  }
+  &:active{
+    @include transition(all 0.4s ease-in-out);
+    background:$primary-btn22;
+  }
+}
+
+.ply-btn{
+  width: 65px;
+  height: 65px;
+  background: $white; 
+  @include border-radius(50%);
+  img{
+    width: 40px;
+  }
+}
+
+.ply-btn-anm{
+  display: block;
+  position: relative;
+  width: 65px;
+  height: 65px;
+  background: $white;
+  @include border-radius(50%);
+  transition: 0.2s ease-in-out;
+  img{
+    width: 40px;
+  }
+  &:hover{
+    &::after,&::before{
+      display: none;
+    }
+  }
+}
+
+/* pulse wave */
+.ply-btn-anm:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  @include border-radius(50%);
+  @include add-border(5px, rgba(255, 255, 255, .75), all);
+  background: rgba(198, 16, 0, 0);
+}
+.ply-btn-anm:after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  @include border-radius(50%);
+  @include add-border(5px, rgba(255, 255, 255, .75), all);
+  background: rgba(198, 16, 0, 0);
+}
+
+// next back buttons
+
+.nxt_bk {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.pckg_nxt_btn, .pckg_bk_btn{
+		height: 75px;
+    min-width: 225px;
+    padding: 0;
+    background-color: #e96069;
+		@include border-radius(10px);
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 24px;
+    color: $white;
+    border: none;
+    cursor: pointer;
+	}
+	.pckg_bk_btn {
+    background-color: transparent;
+		@include add-border( 2px, #f1f2f2, all);
+    color: $dark-black;
+	}	
+}
+
+
+
+@-webkit-keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+
+  }
+}
+
+@keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+
+  }
+}
+
+
+
+ 
+
+@media (max-width: 1599px){
+  .primary_btn {
+    height: 55px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1349px){
+  .primary_btn {
+    height: 50px;
+  }
+}
+
+@media (max-width: 1199px){
+  .primary_btn {
+    font-size: 16px;
+  }
+}
+
+ 
+
+
+

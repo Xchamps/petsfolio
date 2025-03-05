@@ -1,0 +1,315 @@
+.training-pkg-sec {
+	.grmng-pkg-sec-cnt {
+        .grmng-pkg-sec-lft {
+            left: 7px;
+            top: 25%;
+        }
+		.grmng-pkg-sec-ryt {
+			.grmng-pkg-frm {
+				.grmng-strt-prc {
+					background-color: #ff94a1;
+					.grmng-strt-prc-lft {
+                        width: 500px;
+                        flex: 0 0 500px;
+						.grmng-prc {
+							.sesn {
+								margin-left: 10px;
+							}
+						}
+                        ul{
+                            margin: 0 -5px;
+                            li {
+                                flex: 0 0 calc(100%/3 - 10px);
+                                width: 100%;
+                                margin-bottom: 20px;
+                                margin: 0 5px 10px;
+                            }
+                        }
+					} 
+					&::after {
+						background-color: #ed828f;
+					}
+				}
+				.obd-trng {
+					.grmng-strt-prc {
+						background-color: #90f0fb;
+						&::after {
+							background-color: #7edee9;
+						}
+					}
+				}
+				.inrmdt-trng {
+					.grmng-strt-prc {
+						background-color: #fda253;
+						&::after {
+						    background-color: #eb9041;
+						}
+					}
+				}
+				.advnc-trng {
+					.grmng-strt-prc {
+						background-color: #b3dc8f;
+						&::after {
+							background-color: #9ac376;
+						}
+					}
+				}
+				.grmng-strt-prc {
+					.grmng-strt-prc-ryt {
+						.grm-mn {
+							width: 245px;
+							flex: 0 0 245px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.form-cntl {
+		.day-slcns {
+			.form-group {
+				input {
+					&:checked {
+						& + label {
+							border: 2px solid #de3f5a;
+							background: #de3f5a;
+							&:after {
+								background: url(../images/red-check.png);
+								background-size: cover;
+								background-position: center;
+								background-repeat: no-repeat;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.obd-trng {
+		.form-cntl {
+			.day-slcns {
+				.form-group {
+					input {
+						&:checked {
+							& + label {
+								border: 2px solid #19bed1;
+								background: #19bed1;
+								&:after {
+									background: url(../images/blue-check.svg);
+									background-size: cover;
+									background-position: center;
+									background-repeat: no-repeat;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.inrmdt-trng {
+		.form-cntl {
+			.day-slcns {
+				.form-group {
+					input {
+						&:checked {
+							& + label {
+								border: 2px solid #eb740d;
+								background: #eb740d;
+								&:after {
+									background: url(../images/o-check.png);
+									background-size: cover;
+									background-position: center;
+									background-repeat: no-repeat;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.advnc-trng {
+		.form-cntl {
+			.day-slcns {
+				.form-group {
+					input {
+						&:checked {
+							& + label {
+								border: 2px solid #7da955;
+								background: #7da955;
+								&:after {
+									background: url(../images/grn-check.png);
+									background-size: cover;
+									background-position: center;
+									background-repeat: no-repeat;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.trng-tabs {
+	li {
+		min-height: 118px;
+		border: 3px solid #90f0fb;
+		background-color: #90f0fb;
+		border-radius: 10px;
+		flex: 0 0 calc(100% / 4 - 26px);
+		max-width: 100%;
+		margin: 0 13px 17px;
+		position: relative;
+		padding: 20px 16px;
+		&:nth-child(2) {
+			border: 3px solid #ff94a1;
+			background-color: #ff94a1;
+			.trng-img {
+				width: 142px;
+				height: 94px;
+				right: -25px;
+				bottom: 5px;
+			}
+		}
+		&:nth-child(3) {
+			border: 3px solid #fda253;
+			background-color: #fda253;
+			.trng-img {
+				width: 105px;
+				height: 86px;
+				right: 5px;
+				bottom: 5px;
+			}
+		}
+		&:nth-child(4) {
+			border: 3px solid #b3dc8f;
+			background-color: #b3dc8f;
+			.trng-img {
+				width: 105px;
+				height: 84px;
+				right: 5px;
+				bottom: 5px;
+			}
+		}
+		.trng-item {
+			.npr_1 {
+				font-weight: 600;
+				margin-bottom: 5px;
+				margin-right: 35px;
+			}
+		}
+	}
+}
+.trng-pkg-tabs{
+    ul#tabs-nav {
+        li{
+            &:hover,
+            &.active{
+                border: 3px solid #009bad;
+            }
+            &:nth-child(2){
+                &:hover,
+                &.active{
+                    border: 3px solid #de3f5a;
+                }
+            }
+            &:nth-child(3){
+                &:hover,
+                &.active{
+                    border: 3px solid #e96c00;
+                }
+            }
+            &:nth-child(4){
+                &:hover,
+                &.active{
+                    border: 3px solid #4a8614;
+                }
+            }
+        }
+    }
+}
+ 
+.trng-pkg-tabs {
+	ul#tabs-nav {
+		li {
+			&.active {
+				&::after {
+					content: "";
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					-webkit-box-pack: center;
+					-ms-flex-pack: center;
+					justify-content: center;
+					background-color: #90f0fb;
+					border: 2px solid #fff;
+					background-image: url(../images/dwn-arw.svg);
+					background-repeat: no-repeat;
+					background-size: 14px;
+					background-position: center;
+					position: absolute;
+					left: 0;
+					right: 0;
+					bottom: -28px;
+					z-index: 9;
+					margin: 0 auto;
+				}
+			}
+			&:nth-child(2).active { 
+				&::after {
+					background-color: #ff94a1;
+					background-image: url(../images/dwn-arw.svg);
+				}
+			}
+			&:nth-child(3).active {
+				&::after {
+					background-color: #fda253;
+					background-image: url(../images/dwn-arw.svg);
+				}
+			}
+			&:nth-child(4).active {
+				&::after {
+					background-color: #b3dc8f;
+					background-image: url(../images/dwn-arw.svg);
+				} 
+			}
+		}
+	}
+}
+.trng-img {    
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	width: 67px;
+	height: 79px; 
+}
+
+.grmng-pkg-sec {
+	.grmng-pkg-sec-cnt {
+		.grmng-pkg-sec-ryt {
+			.training-pkg-smry{
+				.grm-pkg-smry{
+					.pckg-lst {
+						width: 85%;
+						ul {
+							margin: 0 -5px;
+							li {
+								flex: 0 0 calc(100%/3 - 10px);
+								width: 100%;
+								margin: 0 5px 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}	

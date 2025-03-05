@@ -1,0 +1,147 @@
+footer{
+  background: $black-1;
+  padding:65px 0 0;
+  .ftr-top{
+    align-items: start;
+    .ftr-links{
+      h4{
+        line-height: 32px;
+        color: $grey;
+        margin-bottom: 25px;
+      }
+      &:first-child{
+        ul{
+          display: flex;
+          flex-direction: column;
+          width: 360px;
+          height: 264px;
+          justify-content: end;
+          flex-wrap: wrap;
+        }
+      }
+      ul{
+        li{
+          margin-bottom: 20px;
+          a{
+            color: $light-grey;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .ftr-mdl{
+    padding-bottom: 30px;
+    @include add-border(1px, #383837, bottom);
+    h4{
+      line-height: 32px;
+      color: $grey;
+      margin-bottom: 25px;
+    }
+    .ftr-frm{
+      position: relative;
+      input{
+        border: none;
+        outline: none;
+        width: 402px;
+        height: 62px;
+        padding: 0 135px 0 35px;
+        @include border-radius(32px);
+        color: $black-1;
+        &:placeholder{
+          color: $black-1;
+        }
+      }
+      button{
+        font-family: '$InterSemiBold';
+        width: 125px;
+        height: 54px;
+        @include border-radius(32px);
+        border: none;
+        outline: none;
+        background: $primary-btn2;
+        color: $white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+      }
+    }
+    .ftr-mdl-ryt{
+      margin-right: 0;
+      width: 530px;
+      .qr-code-sec {
+        .qr-code-sec-lft{
+          p{
+            padding: 0 25px 0 15px;
+            border-right: none;
+            color: $grey;
+          }
+        }
+        .ply-str-sec{
+          a{
+            margin-bottom: 10px;
+            display: block;
+            width: 168px;
+            &:last-child{
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  .ftr-btm{
+    padding: 15px 0 18px;
+    .ftr-btm-lft {
+      p{
+        color: $light-grey;
+      }
+    }
+    .ftr-btm-ryt{
+      ul{
+        li{
+          margin-left: 18px;
+          a{
+            @include add-border(1px, $black-8, all);
+            @include border-radius(50%);
+            width: 34px;
+            height: 34px;
+            color: $white;
+            &.active,&:hover{
+              background: $white;
+              color: $black-1;
+              svg{
+                path{
+                  fill: $black-1;
+                }
+                &.yu-svg{
+                  .st3{
+                    fill: $white;
+                  }
+                }
+              }
+            }
+            svg{
+              width: 15px;
+              path{
+                fill: $white;
+              }
+              &.fb-svg{
+                width: 10px;   
+              }
+              &.yu-svg{
+                .st3{
+                  fill: $black-1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

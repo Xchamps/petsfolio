@@ -1,0 +1,114 @@
+.grming-bnr {
+	.hm-bnr-lft-sec{
+		h1 {
+			position: relative;
+			display: inline;
+			&::after{
+				content: "";
+				background: url(../images/spark-icon.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				width: 57px;
+				height: 70px;
+				position: absolute;
+				right: -85px;
+				top: -13px;
+			}
+		}
+	}
+}
+.grm-features-sec{
+	position: relative;
+	padding: 120px 0 135px;
+	.tr-feat-lft > div {
+		position: absolute;
+    left: 10%;
+    top: 13%;
+    width: 663px;
+	}
+}
+
+.grm-dwnld-app{
+	.dwnld-app-cnt{
+		position: relative;
+	}
+	.dwnld-app-ryt {
+		ul {
+			li{
+				flex: none;
+				width: inherit;
+				margin-right: 15px;
+				margin-bottom: 30px;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+.grm-abt-sec{
+	.smr-abt-lft {
+    flex: 0 0 645px;
+    width: 645px;
+	}
+}
+
+ 
+.qr-code-sec{
+	.qr-code-sec-lft {
+		& > div{
+			flex: 0 0 100px;
+			width: 100px;
+		}
+		p{
+			padding: 0 25px 0 15px;
+			border-right: 1px solid #6da4a4;
+		}
+	}
+}
+
+
+.grm-ad{
+	background: #8486f2;
+	.ad-sec-cnt {
+		padding-left: 300px;
+		.ad-sec-lft {
+			left: -20px;
+			bottom: 0;
+		}
+		.ad-sec-mdl{
+			strong,p{
+				color: $white;
+			}
+		}
+		.ad-sec-ryt{
+			background: none;
+			top: 50px;
+			a{
+				position: static;
+				margin: 38px 10px 0;
+				background: #c6ff3f;
+				color: $black-1;
+				box-shadow: 1px 4px 2px #7678d5;
+				width: 257px;
+			}
+			p{
+				background: url(../images/offer1-bg.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				width: 206px;
+				height: 200px;
+				text-align: center;
+				span{
+					color: $black-1;
+					b{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

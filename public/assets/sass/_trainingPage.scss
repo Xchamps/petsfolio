@@ -1,0 +1,243 @@
+.glb-bnr-frm{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		background: rgb(0 0 0 / 21%);
+	}
+	.hm-bnr-lft-sec{
+		flex: 0 0 880px;
+		width: 880px;
+		h1{
+				color: $white;
+		}
+		p{
+			background: transparent;
+			color: $white;
+			padding: 0;
+			line-height: 28px;
+		}
+	}
+}
+
+
+
+.tr-features-sec{ 
+	padding: 65px 0 50px;
+	.tr-feat-lft{
+		width: 48%;
+		& > div{
+			width: 667px;
+			margin-left: -65px;
+		}
+	}
+	.tr-feat-ryt{
+		width: 56%;
+		margin-left: 50px;
+		.tr-services{
+			.tr-services-cord{
+				margin-bottom: 18px;
+				&:last-child{
+					margin-bottom: 0;
+				}
+				.tr-cord-img{
+					width: 75px;
+					height: 75px;
+					flex: 0 0 75px;
+					background: $light-grey3;
+					@include border-radius(50%);
+					overflow: hidden;
+					margin-right: 20px;
+					padding: 18px;
+				}
+				.tr-cord-mtr{
+					p.sm_1{
+						color: $black-6;
+					}
+				}
+			} 
+		}
+	}
+}
+
+.tr-options{
+	padding: 100px 0;
+	h2{
+		text-align: center
+	}
+	a,button{
+		@include border-radius(14px);
+		margin: 0 auto;
+		width: 242px;
+	}
+	.tr-option-list{ 
+		flex-wrap: wrap;
+		margin: 0 -25px;
+		.tr-opt-cords{
+			@include add-border(1px, $light-grey, all);
+			@include border-radius(8px);
+			padding: 20px 25px;
+			width: 175px;
+			flex: 0 0 175px;
+			height: 218px; 
+			margin: 0 25px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			.tr-opt-crd-img{
+				width: 70px;
+			}
+			.tr-opt-crd-mtr{
+				p.p_1{
+					line-height: 28px;
+				}
+			}
+		}
+		.slick-dots li button {
+			min-width: auto;
+		}
+	}
+}
+
+
+.smr-abt-sec{
+	padding: 80px 0;
+	.smr-abt-lft {
+		flex: 0 0 610px;
+		width: 610px;
+		p{
+			color: $black-6;
+		}
+	}
+	.smr-abt-ryt {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 288px;
+		@include border-radius(8px);
+		width: 46%;
+	}
+}	
+
+.dwnld-app{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 85px 0 90px;
+	background: $cyan;
+	padding: 75px 0;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	.dwnld-app-cnt{
+		position: relative;
+		.dwnld-app-lft {
+			width: 735px;
+			position: absolute;
+			left: 0;
+			bottom: -77px;
+		}
+	}
+	.dwnld-app-ryt { 
+		width: 46%;
+		margin-left: auto;
+		position: relative;
+		z-index: 99;
+		.dwn-p {
+			background: #77bab9;
+			display: inline-flex;
+			padding: 10px 15px 10px 20px;
+			border-radius: 32px;
+			img{
+				margin-left: 12px;
+			}
+		}
+		ul {
+			flex-wrap: wrap;
+			li{
+				flex: 0 0 calc(100%/2);
+				width: 100%;
+				margin: 0 0 20px;
+				& > div{
+					background: #77bab9;
+					border-radius: 50%;
+					width: 50px;
+					height: 50px;
+					padding: 10px;
+				}
+				p.ps_s{
+					font-size: 18px;
+					padding-left: 10px;
+				}
+			}
+		}
+		.ply-str-sec a{
+			margin-right: 20px;
+			width: 155px;
+		}
+	}
+	
+}
+
+.ad-sec{
+	background: $yellowish-org;
+	// height: 208px;
+	.ad-sec-cnt  {
+		position: relative;
+		.ad-sec-lft {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 306px;
+		}
+		.ad-sec-mdl{ 
+			padding: 40px 0; 
+			strong{
+				display: block;
+			}
+			p{
+				color: $dark-violet;
+			} 
+		}
+		.ad-sec-ryt {
+			background: url(../images/ad-sec-ryt.png);
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 538px;
+			height: 72px;
+			position: absolute;
+			right: 0;
+			top: -7px;
+			p{
+				height: 72px;
+				color: $white;
+			}
+			a{
+				background: #1bb882;
+				@include border-radius(48px);
+				box-shadow: 1px 4px 2px #d8a331;
+				margin: 15px auto 0;
+				width: 250px;
+				height: 72px;
+			}
+		}
+	}
+	&.trainer-ad{
+		.ad-sec-cnt{
+			padding-left: 355px;
+			.ad-sec-mdl {
+				width: 680px;
+				flex: 0 0 680px;
+			}
+		}
+	}   
+} 
+ 

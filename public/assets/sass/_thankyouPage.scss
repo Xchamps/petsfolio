@@ -1,0 +1,69 @@
+.sbmt-sec{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 50px 0 100px;
+}
+.sbmt-tp-sec{
+	p, h2{
+		text-align: center;
+	}
+	.sbm-sign{
+		width: 80px;
+		height: 80px;
+		margin: 0 auto;
+		background-color: $pale-green;
+		border-radius: 50%;
+		border: 11px solid #d7eed7;
+		img{
+				width: 32px;
+		}
+	}
+}
+
+.sbmt-sec-cnt{
+	border-radius: 32px;
+	background-color: $white;
+	box-shadow: 0px 9px 20px 0px #eee;
+	padding: 55px 50px 0 60px;
+	.sbmt-sec-lft{
+		& > div{
+			width: 400px;
+			text-align: center;
+		}
+	}
+	.sbmt-sec-ryt{
+		border-radius: 32px;
+		background: #28b8c9;
+		padding: 55px 50px 55px 60px;
+		text-align: center;
+		width: 500px;
+		flex: 0 0 500px; 
+		margin-bottom: 55px;
+		h2, p{
+			color: $white;
+		}
+		.ply-str-sec{
+			justify-content: space-evenly;
+			padding-bottom: 30px;
+		}
+		.thnq-qr-sec{
+			border-top: 1px dashed $white;
+			padding-top: 30px;
+			width: 265px;
+			margin: 0 auto;
+			img{
+				margin: 0 auto;
+				width: 142px;
+				height: 142px;
+			}
+			p{
+				font-size: 12px;
+				padding: 9px 10px;
+				display: inline;
+				background: #44d90f;
+				@include border-radius(5px);
+			}
+		}
+	}
+}

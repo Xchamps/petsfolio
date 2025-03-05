@@ -1,0 +1,854 @@
+@media (max-width: 1919px){
+
+  .glb-bnr-frm{ 
+    height: 580px;
+    .bnr-pet-packages {
+      .pckgs-frm {
+        & > div {
+          .location,
+          .breed {
+            background-position: left 5px center;
+          }
+          input,select{
+            padding: 0 32px 0 40px;
+          } 
+        }
+      }
+    }
+  }
+
+  .tr-options {
+    padding: 85px 0;
+  }
+
+  .dwnld-app {
+    margin: 85px 0;
+    padding: 70px 0;
+    background-position: left 48% center;
+    .dwnld-app-cnt{
+      .dwnld-app-lft { 
+        width: 690px;
+        left: 0;
+        bottom: -70px;
+      }
+    }
+  }
+ 
+}
+
+@media (max-width: 1599px){ 
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .rum_1 {
+    font-size: 36px; 
+    line-height: 42px;
+  }
+
+  .glb-bnr-frm{ 
+    .bnr-pet-packages {
+      .pckgs-frm {
+        & > div {
+          .p_1 {
+            font-size: 16px;
+          }
+          &::after{
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+  
+  .tr-features-sec{
+    .tr-feat-lft {
+      width: 40%;
+      & > div {
+        width: 515px;
+        margin-left: 0;
+      }
+    }
+    .tr-feat-ryt {
+      width: 54%; 
+      .tr-services{
+        .tr-services-cord {
+          .tr-cord-img {
+            width: 70px;
+            height: 70px;
+            flex: 0 0 70px;
+            padding: 20px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .tr-options,
+  .smr-abt-sec {
+    padding: 75px 0;
+  } 
+
+  .tr-options {
+    .tr-option-list {
+      margin: 0 -10px;
+      .tr-opt-cords {
+        width: 160px;
+        flex: 0 0 160px;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .dwnld-app {
+    margin: 75px 0;
+    .dwnld-app-cnt {
+      .dwnld-app-lft {
+        width: 575px;
+        left: -15px;
+      } 
+      .dwnld-app-ryt {
+        width: 54%;
+      }
+    }
+  }
+
+  .ad-sec.trainer-ad {
+    .ad-sec-cnt {
+      padding-left: 300px;
+      .ad-sec-lft {
+        position: absolute;
+        left: 0;
+        width: 260px;
+      }
+      .ad-sec-mdl {
+        width: 570px;
+        flex: 0 0 570px;
+      }
+    }
+  }
+  .ad-sec{
+    .ad-sec-cnt {
+      .ad-sec-ryt a{
+        height: 60px;
+      }
+    }
+  }
+
+  .glb-bnr-frm {
+    height: 550px;
+  }
+
+}
+
+@media (max-width: 1349px){
+  .container {
+    width: 1140px;
+  }
+
+  .rum_1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .glb-bnr-frm {
+    height: 525px;
+    .bnr-pet-packages {
+      .pckgs-frm {
+        margin: 0;
+        padding: 20px 15px;
+        label.np_1{
+          margin-bottom: 10px;
+          font-size: 16px;
+        }
+        & > div{
+          .location, .breed {
+            background-size: 24px 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .tr-options, .smr-abt-sec {
+    padding: 65px 0;
+  }
+
+  .tr-features-sec {
+    .tr-feat-lft > div {
+      width: 465px;
+      margin-left: 0;
+    }
+    .tr-feat-ryt{
+      .tr-services{
+        .tr-services-cord{
+          .tr-cord-mtr{
+            .nmr_p{
+              font-size: 18px;
+              line-height: 30px;
+            }
+            .sm_1{
+              font-size: 14px;
+            }
+          }
+          .tr-cord-img {
+            width: 65px;
+            height: 65px;
+            flex: 0 0 65px;
+            padding: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .tr-options {
+    a {
+      min-width: 220px;
+      width: 220px;
+    }
+    .tr-option-list {
+      margin: 0 -10px;
+      .tr-opt-cords {
+        width: 160px;
+        -ms-flex: 0 0 160px;
+        flex: 0 0 145px;
+        margin: 0 10px;
+        height: 185px;
+        .tr-opt-crd-mtr p.p_1{
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .tr-opt-crd-img {
+          width: 60px;
+        }
+      }
+    }
+  }
+
+  .smr-abt-sec {
+    .smr-abt-lft {
+      flex: 0 0 560px;
+      width: 560px;
+    }
+    .smr-abt-ryt {
+      height: 260px;
+    }
+  }
+ 
+  .dwnld-app{
+    margin: 60px 0;
+    padding: 60px 0;
+    background-position: left 50% center;
+    .dwnld-app-cnt {
+      .dwnld-app-lft {
+        bottom: -60px;
+        width: 470px;
+      }
+      .dwnld-app-ryt{
+        h2{
+          margin-bottom: 5px !important;
+        }
+        h3, p{
+          margin-bottom: 15px !important;
+        }
+        p.ps_s {
+          font-size: 16px;
+        }
+        .ply-str-sec a {
+          width: 145px;
+        }
+        p.dwn-p {
+          padding: 8px 15px 8px 15px;
+          font-size: 14px;
+        }
+        ul {
+          li{
+            p{
+              margin-bottom: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ad-sec.trainer-ad {
+    .ad-sec-cnt {
+      padding-left: 270px;
+      .ad-sec-mdl {
+        width: 500px;
+        flex: 0 0 500px;
+     }
+      .ad-sec-ryt {
+        width: 425px;
+        height: 58px;
+        p{
+          height: 58px;
+          .npr_1 {
+            font-size: 18px;
+          }
+        } 
+        a{
+          width: 220px;
+          min-width: 220px;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+  .ad-sec {
+    .ad-sec-cnt {
+      .ad-sec-ryt {
+        a{
+          font-size: 20px;
+          line-height: 48px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+}
+ 
+@media (max-width: 1199px){
+  .container{
+    width: 950px;
+  } 
+  .rum_1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .training-bnr{
+    background-position: left 67% center;
+  }
+  .glb-bnr-frm {
+    height: 495px;
+  }
+
+  .tr-options {
+    padding: 55px 0;
+    a {
+      min-width: 170px;
+      width: 170px;
+    }
+    .tr-option-list {
+      .tr-opt-cords {
+        width: 128px;
+        flex: 0 0 128px;
+        margin: 0 5px;
+        padding: 20px;
+        height: 180px;
+        .tr-opt-crd-img {
+          margin-bottom: 30px !important;
+        }
+      }
+    }
+  }
+
+  .dwnld-app {
+    margin: 55px 0;
+    .dwnld-app-cnt {
+      .dwnld-app-lft {
+        width: 405px;
+      }
+      .dwnld-app-ryt {
+        width: 57%;
+        h3, p {
+          margin-bottom: 10px !important;
+        }
+        .p_1{
+          font-size: 16px;
+        }
+        p.ps_s {
+          font-size: 14px;
+          padding: 5px 15px 5px 15px;
+        }
+        ul {
+          li > div {
+            width: 45px;
+            height: 45px;
+            padding: 12px;
+          }
+        }
+        .ply-str-sec a {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+  .tr-features-sec {
+    padding: 55px 0;
+    .tr-feat-lft > div {
+      width: 400px;
+      margin-left: 0;
+    }
+    .tr-feat-ryt {
+      .tr-services {
+        .tr-services-cord {
+          .tr-cord-mtr {
+            .nmr_p {
+              font-size: 16px;
+              line-height: 28px;
+            }
+            .sm_1 {
+              line-height: 20px;
+            }
+          }
+          .tr-cord-img {
+            width: 60px;
+            height: 60px;
+            flex: 0 0 60px;
+            padding: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .ad-sec.trainer-ad {
+    .ad-sec-cnt {
+      padding-left: 225px;
+      .ad-sec-lft {
+        width: 230px;
+      }
+      .ad-sec-ryt {
+        width: 385px;
+        height: 52px;
+        right: 0;
+        top: -6px;
+        p{
+          height: 52px;
+        }
+      }
+      .ad-sec-mdl {
+        width: 405px;
+        flex: 0 0 405px;
+      }
+    }
+  }
+  .ad-sec p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tr-options, .smr-abt-sec {
+    padding: 60px 0;
+  }
+
+  .smr-abt-sec {
+    .smr-abt-lft {
+      flex: 0 0 464px;
+      width: 464px;
+    }
+    .smr-abt-ryt {
+      height: 230px;
+    }
+  }
+
+}
+
+@media (max-width: 991px){
+  .container{
+    width: 750px;
+    padding: 0 5px;
+  }
+
+  .rum_1 {
+    font-size: 24px;
+    line-height: 32px;
+  } 
+
+  .glb-bnr-frm {
+    height: 470px;
+    .hm-bnr-lft-sec{
+      h1{
+        margin-bottom: 5px !important;
+      }
+      p{
+        margin-bottom: 20px !important;
+      }
+      .pckgs-frm {
+        padding: 20px;
+      }
+    }
+  }
+  
+  .tr-features-sec {
+    padding: 50px 0;
+    .tr-feat-lft > div {
+      width: 275px;
+    }
+    .tr-feat-ryt {
+      width: 65%;
+      margin-left: 25px;
+      h2{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .tr-options, .smr-abt-sec {
+    padding: 50px 0;
+  }
+  .smr-abt-sec {
+    .smr-abt-lft {
+      flex: 0 0 360px;
+      width: 360px;
+    }
+    .smr-abt-ryt {
+      width: 49%;
+    }
+  }
+
+  .tr-options {
+    .tr-option-list {
+      margin: 0 -10px 20px !important;
+      justify-content: start;
+      .tr-opt-cords {
+        width: 132px;
+        flex: 0 0 132px;
+        margin: 0 10px 20px;
+      }
+    }
+  }
+
+  .dwnld-app {
+    margin: 50px 0;
+    padding: 50px 0;
+    .dwnld-app-cnt{
+      .dwnld-app-lft {
+        width: 310px;
+        left: -5px;
+        bottom: -50px;
+      }
+      .dwnld-app-ryt{
+        ul {
+          li {
+            flex: 0 0 100%;
+            width: 100%;
+            margin: 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .ad-sec.trainer-ad {
+    .ad-sec-cnt {
+      padding-left: 180px;
+      .ad-sec-lft {
+        width: 170px;
+        bottom: 1px;
+      }
+      .ad-sec-mdl {
+        padding: 30px 0;
+        width: 315px;
+        flex: 0 0 315px;
+      }
+      .ad-sec-ryt {
+        width: 318px;
+        height: 44px;
+        top: -4px;
+        p{
+          height: 44px;
+          .npr_1 {
+            font-size: 16px;
+          }
+        }
+        a{
+          margin-right: 25px;
+          width: 190px;
+          min-width: 190px;
+        }
+      }
+    }
+  }
+  .ad-sec{
+    .ad-sec-cnt {
+      .ad-sec-ryt {
+        a{
+          height: 55px !important;
+          margin: 0 auto 0;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width:767px){
+	.container{ 
+	  width: 100%;
+	  padding: 0 15px; 
+	} 
+  .tr-features-sec {
+    padding: 45px 0;
+    .tr-feat-ryt{
+      .tr-services {
+        .tr-services-cord{
+          .tr-cord-img{
+            margin-right: 10px; 
+          }
+        }
+      }
+    }
+  }
+
+  .tr-options, .smr-abt-sec {
+    padding: 45px 0;
+  }
+
+  .tr-options{
+    h2{
+      margin-bottom: 20px !important;
+    }
+    .tr-option-list {
+      .tr-opt-cords {
+        width: 150px;
+        flex: 0 0 150px;
+        margin: 0 10px 20px;
+        height: 172px;
+      }
+    }  
+  }
+
+  .smr-abt-sec{
+    .smr-abt-lft {
+      flex: 0 0 330px;
+      width: 330px;
+    }
+  }
+
+  .dwnld-app {
+    margin: 30px 0 45px;
+    padding: 45px 0;
+    .dwnld-app-cnt {
+      .dwnld-app-ryt {
+        width: 52%;
+        .p_1 {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .ad-sec.trainer-ad {
+    .ad-sec-cnt {
+      padding-left: 125px;
+      .ad-sec-lft {
+        width: 110px;
+        bottom: 0;
+      }
+      .ad-sec-mdl {
+        padding: 25px 0;
+        width: 295px;
+        flex: 0 0 295px;
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+      .ad-sec-ryt a {
+        width: 200px;
+        min-width: 200px;
+      }
+    }
+  }
+
+  .ad-sec{
+    .ad-sec-cnt{
+      .ad-sec-mdl p {
+        font-size: 16px; 
+      }
+    }
+  }
+  
+
+}  
+
+@media (max-width:699px){
+
+	.training-bnr {
+		background-position: left 77% center;
+	}
+
+	.glb-bnr-frm {
+		.hm-bnr-lft-sec {
+			.pckgs-frm {
+				padding: 15px;
+				border-radius: 12px;
+			}
+		}
+	}
+	
+	.glb-bnr-frm {
+		.bnr-pet-packages{
+			.pckgs-frm {
+				& > div {
+					input,select{
+						height: 50px;
+						padding: 0 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.tr-features-sec {
+		padding: 40px 0;
+		.tr-features-cnt {
+			flex-direction: column;
+			.tr-feat-lft {
+				width: 100%;
+				& > div {
+					width: 275px;
+					margin: 0 auto 20px;
+				}
+			}
+			.tr-feat-ryt {
+				width: 100%;
+				margin-left: 0;
+				h2 {
+					text-align: center;
+				}
+			}
+		}
+	}
+	.tr-options, .smr-abt-sec  {
+		padding: 40px 0;
+	}
+
+	.tr-options {
+		.tr-option-list{
+			.tr-opt-cords {
+				width: 100%;
+				flex: 0 0 calc(100%/4 - 20px);
+				height: 172px;
+			}
+		}
+	}
+
+	.smr-abt-sec {
+		.smr-abt-lft {
+			flex: 0 0 290px;
+			width: 290px;
+			margin-right: 15px;
+		}
+	}
+
+	.dwnld-app {
+		padding: 40px 0;
+		margin: 30px 0 40px;
+		.dwnld-app-cnt{
+			.dwnld-app-lft {
+				width: 250px;
+				left: -5px;
+				bottom: -50px;
+			}
+			.dwnld-app-ryt {
+				width: 57%;
+			}
+		}
+	}
+
+	.ad-sec.trainer-ad {
+		.ad-sec-cnt {
+			padding-left: 0;
+			.ad-sec-lft{
+				display: none;
+			}
+			.ad-sec-ryt {
+				a {
+					margin: 26px auto 0;
+				}
+			}
+		}
+	}
+
+	.tr-options {
+		.tr-option-list{
+			margin: 0 -10px 0 !important;
+			.tr-opt-cords {
+				flex: 0 0 calc(100%/3 - 20px);
+				height: 160px;
+				.tr-opt-crd-img {
+					width: 50px;
+					margin-bottom: 20px !important;
+				}
+			}
+		}
+	}
+
+	.smr-abt-sec {
+		.smr-abt-lft {
+			flex: 0 0 50%;
+			width: 50%;
+		}
+	}
+
+	.dwnld-app {
+		background-position: left -14% center;
+		.dwnld-app-cnt {
+			.dwnld-app-lft {
+				display: none;
+			}
+			.dwnld-app-ryt {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+@media (max-width:479px){
+
+	.glb-bnr-frm {
+		.bnr-pet-packages{
+			.pckgs-frm {
+				& > div {
+					.location, .breed {
+						background-position: left 10px center;
+						background-size: 25px 24px;
+					}
+					input,select{
+						padding: 0 40px;
+					}
+				}
+			}
+		}
+	}
+
+	.tr-options {
+		.tr-option-list{
+			.tr-opt-cords {
+				flex: 0 0 calc(50% - 20px);
+				height: 155px;
+				.tr-opt-crd-mtr {
+					p.p_1 {
+						font-size: 14px;
+						line-height: 22px;
+					}
+				}
+			}
+		}
+	}
+	.smr-abt-sec{
+		.container {
+			flex-direction: column;
+			.smr-abt-lft {
+				flex: 0 0 100%;
+				width: 100%;
+				margin: 0 0 20px;
+			}
+			.smr-abt-ryt {
+				width: 100%;
+			}
+		}
+	}
+
+}

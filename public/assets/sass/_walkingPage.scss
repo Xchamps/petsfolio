@@ -1,0 +1,77 @@
+.wlkr-features-sec{
+	padding: 117px 0 135px;
+	position: relative;
+	.tr-feat-lft {
+		& > div{
+			position: absolute;
+			left: 1%;
+			top: 13%;
+			width: 865px;
+		}
+	}
+}
+
+.wlkr-options {
+	.tr-option-list{
+		.tr-opt-cords{
+			width: 204px;
+			flex: 0 0 204px;
+		}
+	}
+}
+
+.wlkr-dwnld-app{
+	.dwnld-app-cnt{
+		position: relative;
+		.dwnld-app-lft {
+			position: absolute;
+			left: 0;
+			bottom: -75px;
+		}
+	}
+}
+.wlkr-ad{
+	background: $greenish;
+	.ad-sec-cnt{
+		padding-left: 275px;
+		.ad-sec-lft {
+			left: -15px;
+			bottom: 0;
+		}
+		.ad-sec-mdl{
+			flex: 0 0 711px;
+			width: 711px;
+			margin-right: 15px;
+			strong,p{
+				color: $white;
+			}
+		}
+		.ad-sec-ryt{
+			background: none;
+			position: static;
+			a {
+				background: $primary-btn2;
+				box-shadow: 0px 6px 2px #44a382;
+				margin-top: 0;
+			}
+			p{
+				background: url(../images/offer-bg.png);
+				background-position: center;
+				background-size: cover;
+				background-repeat: repeat;
+				width: 185px;
+				height: 190px;
+				margin-left: 35px;
+				span {
+					width: 115px;
+					text-align: center;
+					color: $white;
+					b {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+}

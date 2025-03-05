@@ -1,0 +1,10 @@
+@keyframes move {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(20px);
+  }
+
+} 
+
