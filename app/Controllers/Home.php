@@ -105,6 +105,5 @@ class Home extends BaseController
     {
         echo phpinfo();
         die;
-        
     }
 }
